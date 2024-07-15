@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Aakashdeep Kumar-portfolio </title>
   <link rel="stylesheet" href="output.css">
   <link href="scripts.js">
 </head>
@@ -37,7 +37,7 @@
         <ul
           class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
           <li>
-            <a href="#"
+            <a href="#home"
               class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
               aria-current="page">Home</a>
           </li>
@@ -46,7 +46,7 @@
               class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
           </li>
           <li>
-            <a href="#"
+            <a href="#project"
               class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
           </li>
         </ul>
@@ -55,8 +55,8 @@
   </nav>
 
   <!-- main  -->
-  <main class="main pt-36 flex-col flex   items-center  max-w-screen-xl mx-auto ">
-    <div class="HeroSection flex-col items-center">
+  <main id="home" class="main pt-36 flex-col flex   items-center  max-w-screen-xl mx-auto ">
+    <div id="hero" class="HeroSection flex-col items-center">
       <div
         class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <!-- <div class="flex justify-end px-4 pt-4 ">
@@ -83,27 +83,29 @@
   </div> -->
         <div class="flex flex-col items-center pb-10 p-10  bbg-purple-400  bg-opacity-10 dark:bg-gray-900  dark:border-gray-600 backdrop-filter backdrop-blur-lg  border-b border-gray-200">
           <img class="w-96 mb-3 rounded-t-3xl rounded-b-3xl shadow-lg" src="assets/img/pp.png" alt="Bonnie image" />
-          <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Bonnie Green</h5>
-          <span class="text-sm text-gray-500 dark:text-gray-400">TY student | Designer</span>
+          <h5 class="mb-1 text-2xl font-medium text-gray-900 dark:text-white">Aakashdeep Kumar</h5>
+          <span class="text-sm text-center text-gray-500 dark:text-gray-400">GDSC-MITA&apos;23-24 | TY student @MITA&apos;26 | Graphics Designer | ECESA Tech coordinator | Web developer</span>
           <div class="flex mt-4 md:mt-6">
-            <a href="#"
+            <a href="https://www.linkedin.com/in/aakashdeepkumar/"
               class="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Linkdin</a>
-            <a href="#"
-              class="py-2 px-4 ms-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Message</a>
+            <a href="assets/CV.pdf"
+              class="py-2 px-4 ms-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Download CV</a>
           </div>
         </div>
       </div>
 
     </div>
 
-    <div class="ProjectSection flex-col mt-36 m-36 items-start ">
-      <h5 class="mb-10 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">⚡Projects :</h5>
-      <div class="Section1 flex-wrap lg:flex justify-center items-center  gap-20  ">
+    <div id="project" class="ProjectSection flex-col pt-36  items-start  max-w-screen-xl space-y-16">
+      <h5  class="mb-10 text-2xl font-bold tracking-tight text-gray-900 dark:text-white px-3">⚡Projects :</h5>
+     
+      <div class="Section1 flex-wrap lg:flex justify-center items-center  gap-20 ">
         <div class="left ">
 
 
           <div class="img ">
-            <img class="rounded-l border max-w-sm p-6" src="assets/img/pp.png" alt="" />
+            <!-- <img class="rounded-l border max-w-sm p-6" src="assets/img/netflix.jpeg" alt="" /> -->
+            <video  class="max-w-sm rounded-l borderhover:transparent"src="assets/vdo/netflix.mp4" muted autoplay  ></video>
 
           </div>
 
@@ -112,25 +114,35 @@
           <div
             class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology
-                acquisitions 2021</h5>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                Netflix landing page clone</h5>
             </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology
-              acquisitions of 2021 so far, in reverse chronological order.</p>
-            <a href="#"
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Feb 2024 - PresentFeb 2024 - Present <br>
+              In this project I cloned the world wide famous video and streaming platform Netflix's landing page using HTML,CSS,JS</p>
+            <div class="flex items-center justify-between w-[90%]">
+              
+            <a href="https://github.com/ripgamer/netflix"><span class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">view on GitHub</span></a>
+            <span>
+              <a href="https://ripgamer.github.io/netflix"
               class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              Read more
+              View Page
               <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                 fill="none" viewBox="0 0 14 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                   d="M1 5h12m0 0L9 1m4 4L9 9" />
               </svg>
             </a>
+          </span>
+
+
+          </div>
+
           </div>
 
         </div>
 
       </div>
+      
       <div class="Section2 flex-wrap lg:flex justify-center items-center  gap-20  mt-10">
         
         <div class="left">
@@ -165,6 +177,40 @@
         </div>
 
       </div>
+      <div class="Section1 flex-wrap lg:flex justify-center items-center  gap-20  ">
+        <div class="left ">
+
+
+          <div class="img ">
+            <img class="rounded-l border max-w-sm p-6" src="assets/img/pp.png" alt="" />
+
+          </div>
+
+        </div>
+        <div class="right">
+          <div
+            class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology
+                acquisitions 2021</h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology
+              acquisitions of 2021 so far, in reverse chronological order.</p>
+            <a href="#"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              Read more
+              <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9" />
+              </svg>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
     </div>
 
 
